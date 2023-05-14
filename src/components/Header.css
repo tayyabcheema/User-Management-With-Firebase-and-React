@@ -11,6 +11,7 @@
     font-size: 18px;
     line-height: 15px;
     border-radius: 4px;
+    margin-top: 25px;
 }
 
 .inputField{
@@ -27,6 +28,7 @@
     font-size: 25px;
     font-weight: bold;
     color: #4284f5;
+    margin-top: 25px;
 }
 .header p:hover{
     background-color: #ddd;

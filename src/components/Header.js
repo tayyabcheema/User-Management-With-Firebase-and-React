@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import Home from "../pages/Home";
+// import Home from "../pages/Home";
 import "./Header.css";
 
 const Header = () => {
@@ -36,7 +36,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <p className="logo">Contact Application</p>
+      <p className="logo">User Management</p>
       <div className="header-right">
         <form style={{ display: "inline" }} onSubmit={handleSubmit}>
           <input

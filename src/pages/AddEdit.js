@@ -95,7 +95,7 @@ const AddEdit = () => {
         }}
         onSubmit={handleSubmit}
       >
-        <label htmlFor="name">Name: </label>
+        <label  htmlFor="name">Name</label>
         <input
           type="text"
           id="name"
@@ -105,7 +105,7 @@ const AddEdit = () => {
           onChange={handleInputChange}
         />
 
-        <label htmlFor="email">Email: </label>
+        <label htmlFor="email">Email</label>
         <input
           type="email"
           id="email"
@@ -115,7 +115,7 @@ const AddEdit = () => {
           onChange={handleInputChange}
         />
 
-        <label htmlFor="contact">Contact: </label>
+        <label  htmlFor="contact">Contact</label>
         <input
           type="text"
           id="contact"
@@ -125,7 +125,7 @@ const AddEdit = () => {
           onChange={handleInputChange}
         />
 
-        <label htmlFor="status">Status: </label>
+        <label htmlFor="status">Status</label>
         <input
           type="text"
           id="status"

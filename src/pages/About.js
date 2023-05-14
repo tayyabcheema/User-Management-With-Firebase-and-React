@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <h1>About the Application</h1>
-      <h3>
+      <p>
         User Data Managaement is a web application built using React and Firebase
         that allows users to perform CRUD <strong> Create, Read, Update, Delete </strong>
         operations on a set of data. With our application, users can easily
@@ -23,7 +23,7 @@ const About = () => {
         perfect solution for you. Thank you for choosing User Data Management for
         your data management needs. We're excited to help you get started and
         look forward to working with you!
-      </h3>
+      </p>
     </div>
   );
 };
